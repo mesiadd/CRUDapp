@@ -4,7 +4,7 @@ const express = require("express");
 // console.log("Express module loaded");
 
 const app = express();
-// console.log("Express app initialized");
+console.log("Express app initialized");
 
  app.get("/", (req, res) => {     console.log("GET request received at '/'");
     res.send("Server is running!");
